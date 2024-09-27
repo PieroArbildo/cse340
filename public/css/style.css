@@ -1,0 +1,68 @@
+/******* Change Box Model ***************/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 47em) {
+  body {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(../images/site/small_check.jpg);
+  }
+  #wrapper {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 65px;
+    margin-right: 65px;
+    border: 6px solid #01b0d3;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+  }
+
+  nav ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  nav {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li {
+    width: 100px;
+  }
+
+  nav {
+    height: 60px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  #super-position {
+    position: absolute;
+    top: 252px !important;
+    left: 178px !important;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  #super-position {
+    position: absolute;
+    top: 252px !important;
+    left: 470px !important;
+  }
+}
