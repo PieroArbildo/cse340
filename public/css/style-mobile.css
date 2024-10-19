@@ -32,8 +32,9 @@ nav ul {
   list-style: none;
 }
 
-nav ul li {
-  padding: 16px;
+nav ul li a {
+  text-decoration: none;
+  padding: 15px;
   color: white;
   font-size: 18px;
 }
